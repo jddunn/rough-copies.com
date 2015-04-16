@@ -1,0 +1,44 @@
+.nav  {
+  background : white;
+  margin: 5px;
+  list-style-type: none;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  margin-top: 5.5%;
+  color: #5a5a5a;
+  font-size : 18px;
+  font-weight: bold;
+  padding-bottom : 10px;
+  padding-left : 20px;
+  padding-right : 10px;
+  width: 20%;
+
+
+}
+
+
+
+.jumbotron h1  {
+  margin-top: 4%;
+  font-size : 36px;
+  color: #5a5a5a;
+  font-weight: bold;
+  font-family: 'Shift', sans-serif;
+  margin-left: 25%;
+}
+
+.jumbotron  p {
+  font-size: 20px;
+  margin-left: 25%;
+}
+
+.copyright h1 {
+  border-bottom: dotted;
+  border-width: 1px;
+  margin-top: 20%;
+  margin-left: 61%;
+  margin-right: 0%;
+  font-size: 16px;
+  height: 5%;
+}
