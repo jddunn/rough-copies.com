@@ -20,70 +20,60 @@
 
 
 .jumbotron h1  {
-      display: inline-block;
-
-    vertical-align: top;
-   width: 20%;
-    height: 5%;
-
-
-
+  float: left;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  height: 5%;
   margin-top: 2%;
+  margin-left: 30%;
   font-size : 175%;
   color: #5a5a5a;
   font-weight: bold;
   font-family: 'Shift', sans-serif;
-  margin-left: 30%;
 }
 
 .jumbotron  p {
-      display: inline-block;
-
-    width: 50%;
-    height: 10%;
-
+  display: inline-block;
   vertical-align: top;
-
-  font-size: 105%;
   margin-left: 30%;
+  width: 50%;
+  height: 10%;
+  font-size: 105%;
 }
 
 
 img {
-  display: inline-block;
+  float: right;
     vertical-align: top;
 
+  margin-left: 0%;
   margin-right: 0%;
-  margin-top: 4%;
-  max-width: 24%;
-  max-height: 24%;
-  margin-left: 65%;
+  margin-top: 0%;
+  width: 24%;
+  height: 24%;
 }
 
 .image_caption p {
-    display: inline-block;
+  float: right;
     vertical-align: top;
 
-
-    max-width: 40%;
-    max-height: 20%;
-
-    font-size: 85%;
-    margin-left: 65%;
-
-
-
+  margin-left: 0%;
+  width: 40%;
+  height: 20%;
+  font-size: 85%;
 
 }
 
 
 
-.copyright h1 {
+.copyright {
+  clear: left;
   border-bottom: dotted;
   border-width: 1px;
   margin-top: 20%;
   margin-left: 60%;
   margin-right: 0%;
-  font-size: 85%;
+  font-size: 55%;
   height: 5%;
 }
