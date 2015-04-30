@@ -6,50 +6,41 @@
   display: inline-block;
   vertical-align: top;
   position: absolute;
-  margin-top: 5%;
+  margin-top: 6.3%;
   color: #5a5a5a;
   font-size : 120%;
   font-weight: bold;
   padding-bottom : 10%;
   padding-left : 2%;
   padding-right : 0%;
-  width: 13%;
+  width: 15%;
 
 }
 
 .title h1  {
   display: inline-block;
-  vertical-align: top;
   width: 20%;
   height: 3%;
-  margin-top: 2%;
-  margin-left: 25%;
+  margin-top: 2.75%;
+  margin-left: 27%;
   font-size : 175%;
   color: #5a5a5a;
   font-weight: bold;
   font-family: 'Shift', sans-serif;
 }
 
-.contactHeading p1 {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: -.5%;
-  margin-left: -36.5%;
-  font-size: 150%;
-}
-
-.contactInfo p1 {
+.contactInfo {
   display: inline-block;
   vertical-align: top;
   margin-top: .5%;
-  margin-left: 25.2%;
+  margin-left: 27.1%;
 }
 
 .jumbotron  p {
   display: inline-block;
   margin-top: 0%;
-  margin-left: -30%;
-  margin-right: 0%;
+  margin-left: 0%;
+  margin-right: 27%;
   width: 25%;
   padding-bottom: 0%;
   font-size: 105%;
@@ -59,8 +50,8 @@ img {
   display: inline-block;
   float: left;
   vertical-align:; top;
-  margin-top: .5%;
-  margin-left: 21.5%;
+  margin-top: -1%;
+  margin-left: 23%;
   width: 30%;
   height: 30%;
 }
@@ -72,89 +63,179 @@ img {
 .image_caption p {
   display: inline-block;
   vertical-align: top;
-  margin-top: 24%;
-  margin-left: -78.5%;
+  margin-top: 22%;
+  margin-left: -78%;
   width: 40%;
   height: 20%;
   font-size: 85%;
+}
+
+.homeText  p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 105%;
+  margin-top:-11%;
+  margin-left: 47%;
+  width: 23%;
+  margin-right: 15%;
+}
+
+.homeTextPoem p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 105%;
+  margin-top: -27%;
+  margin-left: 33%;
+  width: 20%;
+  margin-right: 0%;
+}
+
+.homeTextPoemAuthor p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 105%;
+  margin-top: -22.3%;
+  margin-left: 36%;
+  width: 23%;
+  margin-right: 5%;
+}
+
+.homeTextPoem1 p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 105%;
+  margin-top: -20%;
+  margin-left: 33%;
+  width: 23%;
+  margin-right: 0%;
+}
+
+.homeTextPoem1Author p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 105%;
+  margin-top: -15.3%;
+  margin-left: 60%;
+  width: 23%;
+  margin-right: 0%;
+}
+
+.homeTextQuote p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 105%;
+  margin-top: -10.85%;
+  margin-left: 35%;
+  width: 23%;
+  margin-right: 0%;
+}
+
+.homeTextQuoteAuthor p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 105%;
+  margin-top: -6.3%;
+  margin-left: 62%;
+  width: 23%;
+  margin-right: 0%;
+}
 }
 
 .dataLog h4 {
   display: inline-block;
   vertical-align: top;
   font-size: 130%;
-  margin-left: 25.1%;
+  margin-left: 27.1%;
   margin-top: -.5%;
 }
 
-.machinePageTitle h4 {
+.introText h4 {
   display: inline-block;
   vertical-align: top;
   font-size: 130%;
-  margin-left: 25.1%;
+  margin-left: 27.1%;
   margin-top: -.5%;
 }
 
-.researchPageTitle h4 {
+.introTextP p {
   display: inline-block;
   vertical-align: top;
-  font-size: 130%;
-  margin-left: 25.1%;
-  margin-top: -.5%;
+  margin-left: 27.2%;
+  margin-top: -1.5%;
+  font-size: 105%;
+  width: 35%;
 }
-
-.contactPageTitle h4 {
-  display: inline-block;
-  vertical-align: top;
-  font-size: 130%;
-  margin-left: 25.1%;
-  margin-top: -.5%;
-  margin-bottom: .25%;
-}
-
 
 .contactInfo p {
-  margin-left: 1%;
+  margin-left: 0%;
+  margin-top: -1%;
+}
+
+.emailInfo p{
+  margin-left: 27.1%;
+  margin-top: 0%;
 }
 
 .dreamVisualizationsTitle h4 {
   display: inline-block;
   vertical-align: top;
   font-size: 130%;
-  margin-left: 25.1%;
+  margin-left: 27.1%;
   margin-top: -.5%;
   margin-bottom: .25%;
 }
 
 .controllingDeltaThroughMood {
+  margin-top: .5%;
   margin-left: 25%;
+  margin-right: 10%
 }
 
 .dreamJournal {
-  margin-left: 25.1%;
+  margin-left: 27.1%;
   display: inline-block;
   vertical-align: top;
   font-size: 130%;
   margin-top: -.5%;
 }
 
+.dataLog h4 {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 27.1%;
+  margin-top: -.5%;
+  font-size: 130%;
+
+}
+
 .dataLog iframe {
   display: inline-block;
   vertical-align: top;
-  margin-left: 25.1%;
+  margin-left: 27.1%;
   margin-top: -.5%;
 }
 
-.copyright {
+.copyright h1{
   clear: left;
+  float: right;
   border-bottom: dotted;
   border-width: 1px;
   margin-top: 20%;
-  margin-left: 60%;
+  margin-left: 81%;
   margin-right: 0%;
-  font-size: 45%;
-  height: 5%;
+  font-size: 90%;
+  height: 10%;
   padding-bottom: 0%;
+  width: 17%;
 }
 
+.autoUpdated {
+  padding-top: 5%;
+  margin-left: 27.2%;
+}
 
+.feelFree {
+  margin-top: -.8%;
+  padding-top: 0%;
+  margin-left: 27.2%;
+}
