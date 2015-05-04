@@ -9,7 +9,7 @@
 
 .nav  {
   background : white;
-  margin: 3%;
+  margin: 2.5%;
   list-style-type: none;
   display: inline-block;
   vertical-align: top;
@@ -103,7 +103,7 @@ img {
   vertical-align: top;
   font-size: 105%;
   margin-top:-11%;
-  margin-left: 47%;
+  margin-left: 54%;
   width: 23%;
   margin-right: 15%;
 }
@@ -113,7 +113,7 @@ img {
   vertical-align: top;
   font-size: 105%;
   margin-top: -27%;
-  margin-left: 33%;
+  margin-left: 39%;
   width: 20%;
   margin-right: 0%;
 }
