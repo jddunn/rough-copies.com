@@ -1,3 +1,8 @@
+.body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
 
 .nav  {
   background : white;
@@ -7,7 +12,6 @@
   vertical-align: top;
   position: absolute;
   margin-top: 6.3%;
-  color: #5a5a5a;
   font-size : 120%;
   font-weight: bold;
   padding-bottom : 10%;
@@ -16,6 +20,28 @@
   width: 15%;
 
 }
+
+a:link {
+  text-decoration: none; color:#4862F7;
+}
+
+
+a:focus {
+    text-decoration: none; color: #AD97B0;
+}
+
+a:visited{
+  text-decoration: none; color: #4862F7;
+}
+
+a:hover{
+  text-decoration: none; color: #AD97B0;
+}
+
+a:active{ 
+    text-decoration: none; color: #AD97B0;
+}
+
 
 .title h1  {
   display: inline-block;
