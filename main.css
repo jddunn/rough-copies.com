@@ -212,10 +212,16 @@ img {
 .researchTextP p {
   display: inline-block;
   vertical-align: top;
-  margin-left: 27.2%;
-  margin-top: -1.5%;
-  font-size: 105%;
-  width: 35%;
+  text-align: center;
+  margin-left: 25.5%;
+  margin-top: -2%;
+  font-size: 118%;
+  width: 40%;
+}
+
+.researchTextP li {
+  width: 42.5%;
+  list-style-type: circle;
 }
 
 
