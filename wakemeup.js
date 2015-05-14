@@ -1,3 +1,4 @@
+
 function mouseDown() {
  	    document.getElementById("dreamCatcher").style.color = "#9C9C9C";
  	    document.body.style.background = "white";
