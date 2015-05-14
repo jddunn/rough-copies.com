@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link href="font.css" rel="stylesheet">     
+    <link href="main.css" rel="stylesheet">
+</head>
+
+
+<body>
+	<span id="dummy"></span>
+<!-- Site navigation menu -->
+	<div class="nav">
+			<div class="container">
+
+				<u1>
+  					<li><a href="index.html">Home </a></li>
+  					<li><a href="machine.html">The Machine</a></li>
+  					<li><a href="research.html">Research & References</a><li>
+  					<li><a href="dreams.html">Meditations / Dreams</a><li>
+  					<li><a href="data.html">Visual Dream Journal</a><li>
+					<li><a href="contact.html">Contact</a><li>
+					<li><a href="wakemeup.html">Dream Catcher / Wake Me</a><li>
+				</ul>
+			</div>
+		</div>
+
+<!-- Main content -->
+<div class = "title">
+	<div class="container">	 	
+		<h1>ROUGH COPIES</h1>
+	</div>
+</div>
+
+<div class = "mouseDownDiv">
+	<div class = "container">
+<p id="p1" onmousedown="mouseDown()" onmouseup="mouseUp()">
+I am a dreamcatcher!
+</p>
+</div>
+</div>
+<div class = "jumbotronDreamCatcher2">
+	<div class="container" align="center">
+		<p>This is a simple dream catching web app, based off of Salvador Dali's own personal technique of remembering dreams. Dali would sit holding a spooon over a tin plate on the floor, relaxing his body until he fell asleep. Once he was asleep, the spoon would drop onto the plate, and the resulting noise would suddenly awaken him as soon as he was submerged in dream imagery.</p>
+		<br>
+		<p>If you'd like to try a digital version of Dali's technique, click on "I'm a dreamcatcher!" and hold mouse button. Without letting go, relax your body completely, and when you fall asleep, the button will be released and the website will wake you up!"</p>  
+	</div>
+</div>
+
+<div class = "copyright">
+ 	<div class = "container"> 
+		<h1><i>All Rights Reserved 2014-2015 J.D. Dunn</i></h1>
+	</div>
+</div>
+
+<script>
+function mouseDown() {
+    document.getElementById("p1").style.color = "red";
+}
+
+function mouseUp() {
+    document.getElementById("p1").style.color = "black";
+	document.body.style.background = "yellow";
+	setTimeout(function(){document.body.style.background="white"},250);
+	playSound('Didos-Lament-Dream-Signal-Sound.mp3');
+
+}
+
+
+function playSound(file) {
+  var aud = new Audio('Didos-Lament-Dream-Signal-Sound.mp3')/
+  aud.play();
+}
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39846512-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
