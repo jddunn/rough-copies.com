@@ -145,13 +145,13 @@ img {
 
 .jumbotronDreamCatcher p {
   font-size: 120%;
-  margin-left: -2%;
+  margin-left: 37.5%;
 }
 
 .jumbotronDreamCatcher2 p {
   display: inline-block;
   font-size: 100%;
-  margin-left: 0%;
+  margin-left: -10%;
   width: 30%;
 }
 
@@ -223,6 +223,16 @@ img {
   font-size: 105%;
   width: 35%;
 }
+
+.introTextP2 p {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 25.5%;
+  margin-top: 1%;
+  font-size: 105%;
+  width: 220%;
+}
+
 
 .researchText h4 {
   display: inline-block;
