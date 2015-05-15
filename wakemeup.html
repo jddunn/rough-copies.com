@@ -3,24 +3,20 @@
 
 <html>
 <head>
-	<script>
 
+<script>
 function mouseDown() {
     document.getElementById("p1").style.color = "red";
 }
 
 function mouseUp() {
-    
+	
     document.getElementById("p1").style.color = "black";
 	document.body.style.background = "yellow";
-	setTimeout(function(){document.body.style.background="white"},250);
+		setTimeout(function(){document.body.style.background="white"},250);
+		document.getElementById('audiotag1').play();
+	}
 
-}
-
-function playSound() {
-  var aud = new Audio('Didos-Lament-Dream-Signal-Sound.mp3')/
-  aud.play();
-}
 </script>
 	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link href="font.css" rel="stylesheet">     
@@ -29,8 +25,7 @@ function playSound() {
 
 
 <body>
-	<span id="dummy"></span>
-<!-- Site navigation menu -->
+	<!-- Site navigation menu -->
 	<div class="nav">
 			<div class="container">
 
@@ -45,6 +40,10 @@ function playSound() {
 				</ul>
 			</div>
 		</div>
+
+
+<audio id="audiotag1" src="Didos-Lament-Dream-Signal-Sound.mp3" preload="auto"></audio>
+<a href="javascript:play_single_sound();">Play 5-sec sound on single channel</a>
 
 <!-- Main content -->
 <div class = "title">
