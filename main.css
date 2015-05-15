@@ -145,7 +145,8 @@ img {
 
 .jumbotronDreamCatcher p {
   font-size: 120%;
-  margin-left: 37.5%;
+  margin-left: -11%;
+  color: grey;
 }
 
 .jumbotronDreamCatcher2 p {
@@ -153,12 +154,7 @@ img {
   font-size: 100%;
   margin-left: -10%;
   width: 30%;
-}
-
-.mouseDownDiv p {
-  display: inline-block;
-  font-size: 120%;
-  margin-left: 45%;
+  color: black;
 }
 
 .homeTextPoem1Author p {
