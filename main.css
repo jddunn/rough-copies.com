@@ -233,6 +233,16 @@ img {
   width: 220%;
 }
 
+.introTextP3 p {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 26%;
+  margin-top: 1%;
+  font-size: 125%;
+  width: 150%;
+  color: blue;
+}
+
 
 .researchText h4 {
   display: inline-block;
