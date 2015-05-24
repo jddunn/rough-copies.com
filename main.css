@@ -78,7 +78,7 @@ img {
   display: inline-block;
   float: left;
   vertical-align:; top;
-  margin-top: -1%;
+  margin-top: -3%;
   margin-left: 22.175%;
   width: 30%;
   height: 30%;
@@ -91,7 +91,7 @@ img {
 .image_caption p {
   display: inline-block;
   vertical-align: top;
-  margin-top: 22%;
+  margin-top: 19.8%;
   margin-left: -78%;
   width: 40%;
   height: 20%;
@@ -101,7 +101,7 @@ img {
 .homeText  p {
   display: inline-block;
   vertical-align: top;
-  font-size: 120%;
+  font-size: 115%;
   margin-top:-12%;
   margin-left: 56%;
   width: 26.5%;
@@ -112,30 +112,21 @@ img {
   display: inline-block;
   vertical-align: top;
   font-size: 105%;
-  margin-top: -27%;
-  margin-left: 41%;
   width: 20%;
-  margin-right: 0%;
 }
 
 .homeTextPoemAuthor p {
   display: inline-block;
   vertical-align: top;
   font-size: 105%;
-  margin-top: -22.3%;
-  margin-left: 36%;
   width: 23%;
-  margin-right: 5%;
 }
 
 .homeTextPoem1 p {
   display: inline-block;
   vertical-align: top;
   font-size: 105%;
-  margin-top: -20%;
-  margin-left: 33%;
   width: 23%;
-  margin-right: 0%;
 }
 
 .youtubeVideo {
@@ -161,17 +152,13 @@ img {
   display: inline-block;
   vertical-align: top;
   font-size: 105%;
-  margin-left: 60%;
   width: 23%;
-  margin-right: 0%;
 }
 
 .homeTextQuote p {
   display: inline-block;
   vertical-align: top;
   font-size: 105%;
-  margin-top: -10.85%;
-  margin-left: 35%;
   width: 23%;
   margin-right: 0%;
 }
@@ -184,6 +171,14 @@ img {
   width: 20;
   margin-right: 0%;
 
+}
+
+.blog h3 { 
+  display: inline-block;
+  vertical-align: top;
+  font-size: 135%;
+  margin-left: 68.8%;
+  margin-top: -4%;
 }
 
 .dataLog h4 {
@@ -318,7 +313,7 @@ img {
   float: right;
   border-bottom: dotted;
   border-width: 1px;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 81%;
   margin-right: 0%;
   font-size: 90%;
