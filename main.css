@@ -73,7 +73,7 @@ img {
   display: inline-block;
   float: left;
   vertical-align:; top;
-  margin-left: 23.175%;
+  margin-left: 24.175%;
   max-width: 25%;
   max-height: 25%;
 }
@@ -97,7 +97,7 @@ img {
 .image_caption p {
   display: inline-block;
   vertical-align: top;  
-  margin-left: -76.75%;
+  margin-left: -75.75%;
   padding-left: 0%;
   width: 26%;
   position: relative;
@@ -199,13 +199,8 @@ img {
    border-top: solid 1px;
    width: 90%;
    font-size: 110%;
-<<<<<<< HEAD
    padding-top: 2.57%;
-   padding-bottom: 10%;
-=======
-   padding-top: 1%;
 
->>>>>>> parent of 520d56e... asd
 }
 
 .post-thumbnail-1 {
@@ -214,20 +209,21 @@ img {
   padding: 1%; 
   position: relative;
   float: left;
-  margin-top: -13%;
+  margin-top: -2%;
   margin-left: -30%;
 }
 
 .blogMore  {
-  padding-top: 15.25%;
-  margin-left: 67%;s
+  padding-top: 1.25%;
+  margin-left: 67%;
   padding-left: 3.5%;
-  margin-top: -52%;
+  margin-top: -38%;
 }
 
 
 .blogMore li {
   font-size: 110%;
+  list-style-type: none;
 }
 
 
